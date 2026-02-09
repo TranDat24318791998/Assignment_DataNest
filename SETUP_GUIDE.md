@@ -76,7 +76,8 @@ Press `Ctrl+C` in terminal
 ├── docker-compose.yml        # Docker orchestration
 ├── data/                     # Input data
 │   ├── items.csv
-│   └── item_categories.csv
+│   └── train.csv
+│   └── test.csv
 ├── models/                   # Trained models (optional)
 └── sales_forecast_pipeline.ipynb  # ML training notebook
 ```

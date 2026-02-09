@@ -4,6 +4,16 @@
 
 An end-to-end sales forecasting system predicting monthly product sales across multiple shops for November 2015, built with LightGBM and deployed as a Streamlit web application in Docker.
 
+### Steps to run the notebooks (can be skipped if you only need to run the demo app):
+Step 1: Prepare the data with the following structure:
+```
+├── data/                     
+│   ├── items.csv
+│   └── train.csv
+│   └── test.csv
+```
+Step 2: Run notebook notebooks/sales_forecast_pipeline.ipynb
+
 ---
 
 ## Task 1: Machine Learning Solution

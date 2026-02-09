@@ -1,0 +1,7 @@
+.data/
+.models/
+
+# Large data
+data/
+*.csv
+

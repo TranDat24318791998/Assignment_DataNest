@@ -1,14 +1,4 @@
-.data/
-.models/
 
-# Large data
-data/
-*.csv
-
-
-# Ignore large artifacts
-data/
-models/
 *.pt
 *.pth
 *.ckpt

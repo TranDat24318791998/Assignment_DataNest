@@ -1,0 +1,12 @@
+services:
+  sales-forecast-app:
+    build: .
+    container_name: sales-forecast
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./result.csv:/app/result.csv:ro
+      - ./data:/app/data:ro

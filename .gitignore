@@ -5,3 +5,4 @@
 *.bin
 *.csv
 *.parquet
+.DS_Store

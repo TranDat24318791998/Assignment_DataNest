@@ -5,3 +5,13 @@
 data/
 *.csv
 
+
+# Ignore large artifacts
+data/
+models/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.csv
+*.parquet

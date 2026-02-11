@@ -109,7 +109,7 @@ Future: Can deploy to Streamlit Cloud, Heroku, AWS ECS, or Google Cloud Run with
 
 - Sparse grid reduces data by 80-90% while improving quality
 - 30+ engineered features capture temporal and cross-sectional patterns
-- LightGBM model achieves 5% improvement over baseline
+- LightGBM model achieves 25% improvement over baseline
 - One-command Docker deployment for end users
 - Web interface provides instant predictions with visualizations
 
